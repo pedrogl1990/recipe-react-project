@@ -3,11 +3,11 @@ import Card from "../components/Card";
 
 const Recipe = () => {
   return (
-    <div>
-      <section className="w-full">
-        <img src={omeletteRecipe.image} alt={omeletteRecipe.title} className="w-full" />
+    <div className="max-container md:rounded-4xl bg-white">
+      <section className="w-full ">
+        <img src={omeletteRecipe.image} alt={omeletteRecipe.title} className="w-full md:rounded-t-2xl" />
       </section>
-      <section className="px-8 w-full">
+      <section className="px-8 pb-14 w-full">
         <section className="flex justify-start py-8" id="recipe-title">
           <h1>{omeletteRecipe.title}</h1>
         </section>
@@ -42,7 +42,7 @@ const Recipe = () => {
           ))}
           <hr className="border-t-2 border-stone-300 mt-8 mb-8" />
         </section>
-        <section id="recipe-nutrition" className="mb-8">
+        <section id="recipe-nutrition">
           <h2 className="mb-5">Nutrition</h2>
           <p className="text-stone-600 mb-8">
             The table below shows nutritional values per serving without the additional fillings.
