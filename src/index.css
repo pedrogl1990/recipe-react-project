@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-stone-100: hsl(30, 54%, 90%);
+  --color-stone-150: hsl(30, 18%, 87%);
+  --color-stone-600: hsl(30, 10%, 34%);
+  --color-stone-900: hsl(24, 5%, 18%);
+
+  --color-brown-800: hsl(14, 45%, 36%);
+
+  --color-rose-50: hsl(330, 100%, 98%);
+  --color-rose-800: hsl(332, 51%, 32%);
+
+  --font-young-serif: "Young Serif", serif;
+  --font-outfit: "Outfit", sans-serif;
+
+  --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
+
+  --background-image-hero: url("assets/images/collection-background.svg");
+  --background-image-card: url("assets/images/thumbnail-background.svg");
+
+  --breakpoint-wide: 1440px;
+}
+
+@layer base {
+  h1,
+  h2 {
+    @apply font-young-serif;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+
+  h2 {
+    @apply text-brown-800 text-2xl mb-3;
+  }
+}
+
+@layer utilities {
+  .bold-card {
+    @apply text-stone-800 font-bold;
+  }
+
+  .list-card {
+    @apply pb-2 marker:text-rose-800;
+  }
+
+  .nutrition-table-line {
+    @apply grid grid-cols-2 border-b border-stone-300 pb-1;
+  }
+
+  .nutrition-table-macros {
+    @apply pl-5;
+  }
+
+  .bold-brown-text {
+    @apply text-brown-800 font-bold;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.max-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
