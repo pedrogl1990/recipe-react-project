@@ -14,39 +14,37 @@
 
 ## 📌 Overview
 
-### 🎯 The Challenge
+### The Challenge
 
 My challenge was to build out this recipe page and get it looking as close to the design as possible.
 
-### 🖼️ Screenshot
+### Screenshot
 
 ![Screenshot](./screenshot.jpg)
 
-### 🔗 Links
+### Links
 
 - **Solution URL**: [GitHub Repository](https://github.com/pedrogl1990/recipe-react-project)
 - **Live Site URL**: [View Live](https://pedrogl1990.github.io/recipe-react-project/)
 
 ## 🛠️ My Process
 
-### 🔧 Built With
+### Built With
 
 - Semantic HTML5 markup
 - Mobile-first workflow
 - [React](https://reactjs.org/) – JS library
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
 
-### 📘 What I Learned
+### What I Learned
 
 This project helped me reinforce my front-end skills in the following areas:
 
 - Building a mobile-first page following best practices
 - Improving my proficiency with React and Tailwind CSS
 
-## 🙋 Author
+## 🙋 Author - Pedro Leite
 
-- Pedro Leite
-
-- 🌐 [Website](https://pedroleite.pt/)
-- 💼 [Frontend Mentor](https://www.frontendmentor.io/profile/pedrogl1990)
-- 👔 [LinkedIn](https://www.linkedin.com/in/pedro-guedes-leite/)
+- [Website](https://pedroleite.pt/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/pedrogl1990)
+- [LinkedIn](https://www.linkedin.com/in/pedro-guedes-leite/)
