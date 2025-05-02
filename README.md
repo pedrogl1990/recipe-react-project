@@ -4,13 +4,13 @@
 
 ## 📑 Table of Contents
 
-- [📌 Overview](#-overview)
-  - [🎯 The Challenge](#-the-challenge)
-  - [🔗 Links](#-links)
-- [🛠️ My Process](#-my-process)
-  - [🔧 Built With](#-built-with)
-  - [📘 What I Learned](#-what-i-learned)
-- [🙋 Author](#-author)
+- [Overview](#-overview)
+  - [The Challenge](#-the-challenge)
+  - [Links](#-links)
+- [My Process](#-my-process)
+  - [Built With](#-built-with)
+  - [What I Learned](#-what-i-learned)
+- [Author](#-author)
 
 ## 📌 Overview
 
@@ -44,6 +44,8 @@ This project helped me reinforce my front-end skills in the following areas:
 - Improving my proficiency with React and Tailwind CSS
 
 ## 🙋 Author
+
+- Pedro Leite
 
 - 🌐 [Website](https://pedroleite.pt/)
 - 💼 [Frontend Mentor](https://www.frontendmentor.io/profile/pedrogl1990)
